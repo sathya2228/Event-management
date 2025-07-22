@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import login_img from '../../login-bg.jpg.png'; // Adjust the path as necessary
+import login_img from '../../../src/login-bg.jpg.png'; // Adjust the path as necessary
 
 const Login = () => {
   const navigate = useNavigate();
