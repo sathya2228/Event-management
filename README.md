@@ -40,5 +40,5 @@ A full-stack web application for creating, managing, and viewing events. Built w
 1. Clone the repo:
 
    ```bash
-   git clone 
+   git clone https://github.com/sathya2228/Event-management.git
    cd event-hive/backend
