@@ -4,11 +4,8 @@ import './App.css';
 // Import your components with correct paths
 import AdminSignup from './pages/admin/adminsignup.jsx';
 import AdminLogin from './pages/admin/adminlogin';
+import EventHive from './pages/admin/adminevents.jsx';
 import CreateEvent from './pages/admin/createevent.jsx';
-
-
-// You can create similar components like UserLogin, UserRegister, etc., inside `pages/users`
-
 
 function App() {
   return (
@@ -17,9 +14,9 @@ function App() {
         {/* Admin Routes */}
         <Route path="/signup" element={<AdminSignup />} />
         <Route path="/" element={<AdminLogin />} />
-        <Route path="/create-event" element={<CreateEvent />} />
-        {/* <Route path="/events" element={<AdminEvents />} /> */}
-        
+        <Route path="/EventHive" element={<EventHive />} />
+        <Route path="/createevent" element={<CreateEvent />} />
+
         {/* Add more routes as needed */}
         {/* User Routes can be added similarly */}
 

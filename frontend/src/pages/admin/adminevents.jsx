@@ -50,9 +50,9 @@ const EventHive = () => {
         <div className="flex justify-center mb-4">
           <button className="bg-gray-200 text-gray-700 py-1 px-3 rounded-l-full">FREE</button>
           <div className="flex items-center px-4">
-            <button className="text-gray-700"><</button>
+            <button className="text-gray-700">&lt;</button>
             <span className="mx-2">1 / {Math.ceil(events.length / 3)}</span>
-            <button className="text-gray-700">></button>
+            <button className="text-gray-700">&gt;</button>
           </div>
           <button className="bg-gray-200 text-gray-700 py-1 px-3 rounded-r-full">PAID</button>
           <button className="ml-4 bg-gray-200 text-gray-700 py-1 px-3 rounded-full">Restart</button>
